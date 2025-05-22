@@ -40,6 +40,14 @@
     <!--== Main Style CSS ==-->
     <link href="assets/css/style.css" rel="stylesheet" />
     <style>
+       #profilePreview {
+      display: none;
+      margin-top: 10px;
+      height: 125px;
+      width: 125px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
       .contact-form .contact-form-wrapper .form-group .form-control {
         border-radius: 10px;
       }
@@ -241,52 +249,61 @@
     <!--== Start Contact Area ==-->
     <section class="contact-area">
     <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <div class="contact-form">
-          <form class="contact-form-wrapper form-style" id="contact-form" action="#" method="post">
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="section-title">
-                  <h2 class="title">Join Us Now</h2>
-                </div>
-              </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-title text-center mt-4 mb-4">
+            <h2 class="title">Join Us Now</h2>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <img id="profilePreview" src="#" alt="Image Preview" />
+          <div class="contact-form">
+            <form class="contact-form-wrapper form-style" id="registrationForm" method="post">
+              <div class="row">
 
-              <div class="col-md-6">
-                <div class="form-group">
-                  <label for="first_name">First Name*</label>
-                  <input class="form-control" type="text" id="first_name" name="first_name" placeholder="Enter your first name" required>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="profile_pic">Profile Image</label>
+                    <input class="form-control" type="file" id="profile_pic" name="profile_pic" accept="image/*" required>
+                  </div>
                 </div>
-              </div>
 
-              <div class="col-md-6">
-                <div class="form-group">
-                  <label for="last_name">Last Name*</label>
-                  <input class="form-control" type="text" id="last_name" name="last_name" placeholder="Enter your last name" required>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="first_name">First Name*</label>
+                    <input class="form-control" type="text" id="first_name" name="first_name" required>
+                  </div>
                 </div>
-              </div>
 
-              <div class="col-md-6">
-                <div class="form-group">
-                  <label for="con_phone">Phone Number*</label>
-                  <input class="form-control" type="number" id="con_phone" name="con_phone" placeholder="Enter your phone number" required>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="last_name">Last Name*</label>
+                    <input class="form-control" type="text" id="last_name" name="last_name" required>
+                  </div>
                 </div>
-              </div>
 
-              <div class="col-md-6">
-                <div class="form-group">
-                  <label for="con_email">Email*</label>
-                  <input class="form-control" type="email" id="con_email" name="con_email" placeholder="Enter your email address" required>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="con_phone">Phone Number*</label>
+                    <input class="form-control" type="number" id="con_phone" name="con_phone" required>
+                  </div>
                 </div>
-              </div>
-              <div class="col-md-6">
-                <div class="form-group">
-                  <label for="con_dob">DOB*</label>
-                  <input class="form-control" type="date" id="con_dob" name="con_dob"  required>
+
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="con_email">Email*</label>
+                    <input class="form-control" type="email" id="con_email" name="con_email" required>
+                  </div>
                 </div>
-              </div>
-              <div class="col-md-6">
-                <div class="form-group">
+
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="con_dob">DOB*</label>
+                    <input class="form-control" type="date" id="con_dob" name="con_dob" required>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
                   <label>Gender*</label><br>
                   <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="con_gender" id="gender_male" value="Male" required>
@@ -297,64 +314,98 @@
                     <label class="form-check-label" for="gender_female">Female</label>
                   </div>
                 </div>
-              </div>
-              <div class="col-md-6">
-                <div class="form-group">
-                  <label for="aadhaar">Aadhaar Number*</label>
-                  <input class="form-control" type="number" id="aadhaar" name="aadhaar" placeholder="Enter your Aadhaar number" required maxlength="12">
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="form-group">
-                  <label for="programType">Program Type*</label>
-                  <select class="form-control" id="programType" name="programType" required>
-                    <option value="disabled selected">-- Select Program Type --</option>
-                    <option value="modelling">Modelling</option>
-                    <option value="acting">Acting</option>
-                    <option value="photography">Photography</option>
-                    <option value="videography">Videography</option>
-                    <option value="cinematography">Cinematography</option>
-                  </select>
-                </div>
-              </div>
 
-              <div class="col-md-12">
-                <div class="form-group">
-                  <label for="address">Address*</label>
-                  <input class="form-control" type="text" id="address" name="address" placeholder="Enter your full address" required>
-                </div>
-              </div>
-              <div class="form-group">
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="declaration" name="declaration" required>
-                  <label class="form-check-label" for="declaration">
-                    I hereby declare that the information provided above is true, correct, and complete to the best of my knowledge.
-                  </label>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="aadhaar">Aadhaar Number*</label>
+                    <input class="form-control" type="number" id="aadhaar" name="aadhaar" required maxlength="12">
+                  </div>
                 </div>
 
-                <div class="form-check mt-2">
-                  <input class="form-check-input" type="checkbox" id="terms" name="terms" required>
-                  <label class="form-check-label" for="terms">
-                    I agree to the terms and conditions of the training program and understand that my registration does not guarantee selection.
-                  </label>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="programType">Program Type*</label>
+                    <select class="form-control" id="programType" name="programType" required>
+                      <option value="" disabled selected>-- Select Program Type --</option>
+                      <option value="modelling">Modelling</option>
+                      <option value="acting">Acting</option>
+                      <option value="photography">Photography</option>
+                      <option value="videography">Videography</option>
+                      <option value="cinematography">Cinematography</option>
+                    </select>
+                  </div>
                 </div>
-              </div>
 
-
-              <div class="col-md-12">
-                <div class="form-group mb-0">
-                  <button class="btn btn-theme btn-black" type="submit">Submit</button>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="address">Address*</label>
+                    <input class="form-control" type="text" id="address" name="address" required>
+                  </div>
                 </div>
+
+                <div class="col-md-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="declaration" required>
+                    <label class="form-check-label" for="declaration">
+                      I hereby declare that the information provided above is true, correct, and complete.
+                    </label>
+                  </div>
+                  <div class="form-check mt-2">
+                    <input class="form-check-input" type="checkbox" id="terms" required>
+                    <label class="form-check-label" for="terms">
+                      I agree to the terms and conditions of the training program.
+                    </label>
+                  </div>
+                </div>
+
+                <div class="col-md-12 mt-4">
+                  <button class="btn btn-primary" type="submit">Submit</button>
+                </div>
+
               </div>
-            </div>
-          </form>
-          <!-- Message Notification -->
-          <div class="form-message"></div>
+            </form>
+          </div>
         </div>
       </div>
     </div>
-    </div>
   </section>
+  <script>
+    let profileImageBase64 = "";
+
+    document.getElementById('profile_pic').addEventListener('change', function (event) {
+      const file = event.target.files[0];
+      if (file) {
+        const reader = new FileReader();
+        reader.onload = function (e) {
+          profileImageBase64 = e.target.result;
+          const img = document.getElementById('profilePreview');
+          img.src = profileImageBase64;
+          img.style.display = 'block';
+        };
+        reader.readAsDataURL(file);
+      }
+    });
+
+    document.getElementById("registrationForm").addEventListener("submit", function (e) {
+      e.preventDefault(); // Prevent actual form submission
+
+      // Save form values to sessionStorage
+      sessionStorage.setItem("fullName", document.getElementById("first_name").value + " " + document.getElementById("last_name").value);
+      sessionStorage.setItem("phone", document.getElementById("con_phone").value);
+      sessionStorage.setItem("email", document.getElementById("con_email").value);
+      sessionStorage.setItem("dob", document.getElementById("con_dob").value);
+      sessionStorage.setItem("gender", document.querySelector('input[name="con_gender"]:checked')?.value || '');
+      sessionStorage.setItem("aadhaar", document.getElementById("aadhaar").value);
+      sessionStorage.setItem("program", document.getElementById("programType").value);
+      sessionStorage.setItem("address", document.getElementById("address").value);
+      sessionStorage.setItem("profileImage", profileImageBase64);
+
+      // Redirect to thank you page
+      window.location.href = "thankyou.html";
+    });
+  </script>
+
+
 
 
     <!--== End Contact Area ==-->

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Thank You</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 30px;
+      background: #f4f4f4;
+    }
+    .card {
+        display: flex;
+       flex-direction: column;
+      align-items: center;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      max-width: 700px;
+      margin: auto;
+    }
+    .form-line {
+      margin-bottom: 30px;
+    }
+    .form-line img {
+      border-radius: 10px;
+      border: 1px solid #aaa;
+    }
+    .btn {
+      padding: 10px 20px;
+      margin-top: 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .btn-preview { background: #007bff; color: white; }
+    .btn-download { background: #007bff; color: white;  }
+    #previewSection {
+      display: none;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h2>Thank You! Your form is submitted.</h2>
+    <div style="display: flex; flex-direction: column; align-items: center;">
+    <p><strong>Name:</strong> <span id="submittedName"></span></p>
+    <p><strong>Application No.:</strong> <span id="applicationNumber">APP2025-001</span></p>
+    </div>
+    <div style="display: flex; gap: 20px;">
+        <button class="btn btn-preview" onclick="previewForm()">Preview Form</button>
+    <button class="btn btn-preview" onclick="payNow()">Pay Now</button>
+    </div>
+    <div id="previewSection">
+      <h3>Details</h3>
+      <div class="form-line"><strong>Profile Image:</strong><br>
+        <img id="previewProfileImage" src="" alt="Profile Image" style="height: 125px; width: 125px;" />
+      </div>
+      <div class="form-line"><strong>Name:</strong> <span id="previewName"></span></div>
+      <div class="form-line"><strong>Phone:</strong> <span id="previewPhone"></span></div>
+      <div class="form-line"><strong>Email:</strong> <span id="previewEmail"></span></div>
+      <div class="form-line"><strong>DOB:</strong> <span id="previewDOB"></span></div>
+      <div class="form-line"><strong>Gender:</strong> <span id="previewGender"></span></div>
+      <div class="form-line"><strong>Aadhaar:</strong> <span id="previewAadhaar"></span></div>
+      <div class="form-line"><strong>Program:</strong> <span id="previewProgram"></span></div>
+      <div class="form-line"><strong>Address:</strong> <span id="previewAddress"></span></div>
+
+      <button class="btn btn-download" onclick="downloadPreview()">Download Preview</button>
+    </div>
+  </div>
+
+  <script>
+    // Set submitted name on page load
+    document.getElementById("submittedName").textContent = sessionStorage.getItem("fullName") || "N/A";
+
+    function previewForm() {
+      document.getElementById("previewName").textContent = sessionStorage.getItem("fullName") || '';
+      document.getElementById("previewPhone").textContent = sessionStorage.getItem("phone") || '';
+      document.getElementById("previewEmail").textContent = sessionStorage.getItem("email") || '';
+      document.getElementById("previewDOB").textContent = sessionStorage.getItem("dob") || '';
+      document.getElementById("previewGender").textContent = sessionStorage.getItem("gender") || '';
+      document.getElementById("previewAadhaar").textContent = sessionStorage.getItem("aadhaar") || '';
+      document.getElementById("previewProgram").textContent = sessionStorage.getItem("program") || '';
+      document.getElementById("previewAddress").textContent = sessionStorage.getItem("address") || '';
+
+      const imageData = sessionStorage.getItem("profileImage");
+      if (imageData) {
+        document.getElementById("previewProfileImage").src = imageData;
+      }
+
+      document.getElementById("previewSection").style.display = "block";
+    }
+
+    function downloadPreview() {
+      const name = sessionStorage.getItem("fullName") || '';
+      const phone = sessionStorage.getItem("phone") || '';
+      const email = sessionStorage.getItem("email") || '';
+      const dob = sessionStorage.getItem("dob") || '';
+      const gender = sessionStorage.getItem("gender") || '';
+      const aadhaar = sessionStorage.getItem("aadhaar") || '';
+      const program = sessionStorage.getItem("program") || '';
+      const address = sessionStorage.getItem("address") || '';
+      const image = sessionStorage.getItem("profileImage") || '';
+
+      const htmlContent = `
+        <h2>Form Preview</h2>
+        <p><strong>Name:</strong> ${name}</p>
+        <p><strong>Phone:</strong> ${phone}</p>
+        <p><strong>Email:</strong> ${email}</p>
+        <p><strong>DOB:</strong> ${dob}</p>
+        <p><strong>Gender:</strong> ${gender}</p>
+        <p><strong>Aadhaar:</strong> ${aadhaar}</p>
+        <p><strong>Program:</strong> ${program}</p>
+        <p><strong>Address:</strong> ${address}</p>
+        ${image ? `<p><strong>Profile Image:</strong><br><img src="${image}" style="max-width:150px;"/></p>` : ''}
+      `;
+
+      const blob = new Blob([htmlContent], { type: "text/html" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = "FormPreview.html";
+      a.click();
+      URL.revokeObjectURL(url);
+    }
+    function payNow() {
+      alert("Pay Now functionality coming soon.");
+    }
+  </script>
+</body>
+</html>
