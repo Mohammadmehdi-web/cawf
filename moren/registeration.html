@@ -40,6 +40,12 @@
     <!--== Main Style CSS ==-->
     <link href="assets/css/style.css" rel="stylesheet" />
     <style>
+      .submit-btn{
+       
+       padding: 12px 50px;
+       display: flex;
+        justify-content: center;
+      }
        #profilePreview {
       display: none;
       margin-top: 10px;
@@ -267,18 +273,24 @@
                     <input class="form-control" type="file" id="profile_pic" name="profile_pic" accept="image/*" required>
                   </div>
                 </div>
-
                 <div class="col-md-6">
                   <div class="form-group">
-                    <label for="first_name">First Name*</label>
-                    <input class="form-control" type="text" id="first_name" name="first_name" required>
+                    <label for="programType">Program Type*</label>
+                    <select class="form-control" id="programType" name="programType" required>
+                      <option value="" disabled selected>-- Select Program Type --</option>
+                      <option value="modelling">Modelling</option>
+                      <option value="acting">Acting</option>
+                      <option value="photography">Photography</option>
+                      <option value="videography">Videography</option>
+                      <option value="cinematography">Cinematography</option>
+                    </select>
                   </div>
                 </div>
 
                 <div class="col-md-6">
                   <div class="form-group">
-                    <label for="last_name">Last Name*</label>
-                    <input class="form-control" type="text" id="last_name" name="last_name" required>
+                    <label for="full_name">Full Name*</label>
+                    <input class="form-control" type="text" id="full_name" name="full_name" required>
                   </div>
                 </div>
 
@@ -322,27 +334,12 @@
                   </div>
                 </div>
 
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <label for="programType">Program Type*</label>
-                    <select class="form-control" id="programType" name="programType" required>
-                      <option value="" disabled selected>-- Select Program Type --</option>
-                      <option value="modelling">Modelling</option>
-                      <option value="acting">Acting</option>
-                      <option value="photography">Photography</option>
-                      <option value="videography">Videography</option>
-                      <option value="cinematography">Cinematography</option>
-                    </select>
-                  </div>
-                </div>
-
-                <div class="col-md-6">
+                <div class="col-md-12">
                   <div class="form-group">
                     <label for="address">Address*</label>
                     <input class="form-control" type="text" id="address" name="address" required>
                   </div>
                 </div>
-
                 <div class="col-md-12">
                   <div class="form-check">
                     <input class="form-check-input" type="checkbox" id="declaration" required>
@@ -358,8 +355,8 @@
                   </div>
                 </div>
 
-                <div class="col-md-12 mt-4">
-                  <button class="btn btn-primary" type="submit">Submit</button>
+                <div class="col-md-12 mt-4" style="display: flex; justify-content: center;">
+                  <button class="btn btn-primary submit-btn" type="submit">Submit</button>
                 </div>
 
               </div>
@@ -390,7 +387,7 @@
       e.preventDefault(); // Prevent actual form submission
 
       // Save form values to sessionStorage
-      sessionStorage.setItem("fullName", document.getElementById("first_name").value + " " + document.getElementById("last_name").value);
+      sessionStorage.setItem("fullName", document.getElementById("full_name").value);
       sessionStorage.setItem("phone", document.getElementById("con_phone").value);
       sessionStorage.setItem("email", document.getElementById("con_email").value);
       sessionStorage.setItem("dob", document.getElementById("con_dob").value);
