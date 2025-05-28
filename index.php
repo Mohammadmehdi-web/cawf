@@ -360,10 +360,11 @@
                     <div class="our-Project-nav wow fadeInUp" data-wow-delay="0.4s">
                         <ul>
                             <li><a href="#" class="active-btn" data-filter="*">all</a></li>
-                            <li><a href="#" data-filter=".announcement">Announcement</a></li>
-                            <li><a href="#" data-filter=".news-media">News & Media</a></li>
+                            <li><a href="#" data-filter=".Uttar-Pradesh">Uttar Pradesh</a></li>
+                            <li><a href="#" data-filter=".Delhi">Delhi</a></li>
+                             <li><a href="#" data-filter=".Haryana">Haryana</a></li>
                             <li><a href="#" data-filter=".rakshak-award">Rakshak Award</a></li>
-                            <li><a href="#" data-filter=".infrastructure">Press Conference</a></li>
+                            
                         </ul>
                     </div>
                     <!-- Choose Our Project Nav End -->
@@ -391,12 +392,12 @@
                         </div>
 
 
-                        <div class="col-md-4 project-item-box news-media">
+                        <div class="col-md-4 project-item-box Uttar-Pradesh">
                             <!-- Project Item Start -->
                             <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
                                 <div class="project-image">
                                     <figure class="image-anime">
-                                        <img src="https://img1.wsimg.com/isteam/ip/7df9562b-d3ea-471c-940d-fb82bcadca2d/WhatsApp%20Image%202025-02-16%20at%2018.40.38%20(2).jpeg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:600,cg:true"
+                                        <img src="cine-images/up-1.jpeg"
                                             alt="">
                                     </figure>
                                 </div>
@@ -408,12 +409,12 @@
                             <!-- Project Item End -->
                         </div>
 
-                        <div class="col-md-4 project-item-box news-media">
+                        <div class="col-md-4 project-item-box Uttar-Pradesh">
                             <!-- Project Item Start -->
                             <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
                                 <div class="project-image">
                                     <figure class="image-anime">
-                                        <img src="https://img1.wsimg.com/isteam/ip/7df9562b-d3ea-471c-940d-fb82bcadca2d/WhatsApp%20Image%202025-02-16%20at%2018.40.57.jpeg/:/rs=w:600,cg:true,m"
+                                        <img src="cine-images/up-2.jpeg"
                                             alt="">
                                     </figure>
                                 </div>
@@ -425,12 +426,12 @@
                             <!-- Project Item End -->
                         </div>
 
-                        <div class="col-md-4 project-item-box news-media">
+                        <div class="col-md-4 project-item-box Uttar-Pradesh">
                             <!-- Project Item Start -->
                             <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
                                 <div class="project-image">
                                     <figure class="image-anime">
-                                        <img src="https://img1.wsimg.com/isteam/ip/7df9562b-d3ea-471c-940d-fb82bcadca2d/WhatsApp%20Image%202025-02-16%20at%2018.40.58.jpeg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:600,cg:true"
+                                        <img src="cine-images/up-3.jpeg"
                                             alt="">
                                     </figure>
                                 </div>
@@ -442,12 +443,12 @@
                             <!-- Project Item End -->
                         </div>
 
-                        <div class="col-md-4 project-item-box news-media">
+                        <div class="col-md-4 project-item-box Uttar-Pradesh">
                             <!-- Project Item Start -->
                             <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
                                 <div class="project-image">
                                     <figure class="image-anime">
-                                        <img src="https://img1.wsimg.com/isteam/ip/7df9562b-d3ea-471c-940d-fb82bcadca2d/WhatsApp%20Image%202025-02-16%20at%2018.40.57%20(1).jpeg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:600,cg:true"
+                                        <img src="cine-images/up-4.jpeg"
                                             alt="">
                                     </figure>
                                 </div>
@@ -459,12 +460,12 @@
                             <!-- Project Item End -->
                         </div>
 
-                        <div class="col-md-4 project-item-box news-media">
+                        <div class="col-md-4 project-item-box Delhi">
                             <!-- Project Item Start -->
                             <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
                                 <div class="project-image">
                                     <figure class="image-anime">
-                                        <img src="https://img1.wsimg.com/isteam/ip/7df9562b-d3ea-471c-940d-fb82bcadca2d/WhatsApp%20Image%202025-02-16%20at%2018.40.56%20(2).jpeg/:/rs=w:600,cg:true,m"
+                                        <img src="cine-images/d-1.jpeg"
                                             alt="">
                                     </figure>
                                 </div>
@@ -476,17 +477,153 @@
                             <!-- Project Item End -->
                         </div>
 
-                        <div class="col-md-4 project-item-box news-media">
+                        <div class="col-md-4 project-item-box Delhi">
                             <!-- Project Item Start -->
                             <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
                                 <div class="project-image">
                                     <figure class="image-anime">
-                                        <img src="images/press-1.png" alt="">
+                                        <img src="cine-images/d-2.jpeg" alt="">
                                     </figure>
                                 </div>
 
                                 <div class="project-content">
-                                    <h3><a href="#">Press Conference</a></h3>
+                                    <h3><a href="#">News & Media</a></h3>
+                                </div>
+                            </div>
+                            <!-- Project Item End -->
+                        </div>
+
+                         <div class="col-md-4 project-item-box Haryana">
+                            <!-- Project Item Start -->
+                            <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
+                                <div class="project-image">
+                                    <figure class="image-anime">
+                                        <img src="cine-images/hr-2.jpeg" alt="">
+                                    </figure>
+                                </div>
+
+                                <div class="project-content">
+                                    <h3><a href="#">News & Media</a></h3>
+                                </div>
+                            </div>
+                            <!-- Project Item End -->
+                        </div>
+                         <div class="col-md-4 project-item-box Haryana">
+                            <!-- Project Item Start -->
+                            <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
+                                <div class="project-image">
+                                    <figure class="image-anime">
+                                        <img src="cine-images/hr-1.jpeg" alt="">
+                                    </figure>
+                                </div>
+
+                                <div class="project-content">
+                                    <h3><a href="#">News & Media</a></h3>
+                                </div>
+                            </div>
+                            <!-- Project Item End -->
+                        </div>
+                         <div class="col-md-4 project-item-box Haryana">
+                            <!-- Project Item Start -->
+                            <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
+                                <div class="project-image">
+                                    <figure class="image-anime">
+                                        <img src="cine-images/hr.jpeg" alt="">
+                                    </figure>
+                                </div>
+
+                                <div class="project-content">
+                                    <h3><a href="#">News & Media</a></h3>
+                                </div>
+                            </div>
+                            <!-- Project Item End -->
+                        </div>
+                         <div class="col-md-4 project-item-box Haryana">
+                            <!-- Project Item Start -->
+                            <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
+                                <div class="project-image">
+                                    <figure class="image-anime">
+                                        <img src="cine-images/hr-4.jpeg" alt="">
+                                    </figure>
+                                </div>
+
+                                <div class="project-content">
+                                    <h3><a href="#">News & Media</a></h3>
+                                </div>
+                            </div>
+                            <!-- Project Item End -->
+                        </div>
+                         <div class="col-md-4 project-item-box Haryana">
+                            <!-- Project Item Start -->
+                            <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
+                                <div class="project-image">
+                                    <figure class="image-anime">
+                                        <img src="cine-images/hr-5.jpeg" alt="">
+                                    </figure>
+                                </div>
+
+                                <div class="project-content">
+                                    <h3><a href="#">News & Media</a></h3>
+                                </div>
+                            </div>
+                            <!-- Project Item End -->
+                        </div>
+                         <div class="col-md-4 project-item-box Haryana">
+                            <!-- Project Item Start -->
+                            <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
+                                <div class="project-image">
+                                    <figure class="image-anime">
+                                        <img src="cine-images/hr-6.jpeg" alt="">
+                                    </figure>
+                                </div>
+
+                                <div class="project-content">
+                                    <h3><a href="#">News & Media</a></h3>
+                                </div>
+                            </div>
+                            <!-- Project Item End -->
+                        </div>
+                         <div class="col-md-4 project-item-box Haryana">
+                            <!-- Project Item Start -->
+                            <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
+                                <div class="project-image">
+                                    <figure class="image-anime">
+                                        <img src="cine-images/hr-7.jpeg" alt="">
+                                    </figure>
+                                </div>
+
+                                <div class="project-content">
+                                    <h3><a href="#">News & Media</a></h3>
+                                </div>
+                            </div>
+                            <!-- Project Item End -->
+                        </div>
+                         <div class="col-md-4 project-item-box Haryana">
+                            <!-- Project Item Start -->
+                            <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
+                                <div class="project-image">
+                                    <figure class="image-anime">
+                                        <img src="cine-images/hr-8.jpeg" alt="">
+                                    </figure>
+                                </div>
+
+                                <div class="project-content">
+                                    <h3><a href="#">News & Media</a></h3>
+                                </div>
+                            </div>
+                            <!-- Project Item End -->
+                        </div>
+                        <div class="col-md-4 project-item-box rakshak-award">
+                            <!-- Project Item Start -->
+                            <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
+                                <div class="project-image">
+                                    <figure class="image-anime">
+                                        <img src="cine-images/r-1.jpeg" alt="">
+                                    </figure>
+                                </div>
+
+                                <div class="project-content">
+                                    <h3><a href="#">Rakshak Award</a></h3>
                                 </div>
                             </div>
                             <!-- Project Item End -->
