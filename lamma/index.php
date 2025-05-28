@@ -582,7 +582,7 @@
               <div class="masonry-item item-size2">
                 <div class="gallery-item">
                   <div class="thumb">
-                    <a href="#ml"><img src="assets/img/instagram/lamaa1_imresizer.jpg" alt="Moren-Image"></a>
+                    <a href="#ml"><img src="assets/img/instagram/1.jpg" alt="Moren-Image"></a>
                   </div>
                 </div>
               </div>
@@ -596,7 +596,7 @@
               <div class="masonry-item item-size2">
                 <div class="gallery-item">
                   <div class="thumb">
-                    <a href="#"><img src="assets/img/instagram/lama3_imresizer.jpg" alt="Moren-Image"></a>
+                    <a href="#"><img src="assets/img/instagram/2.jpg" alt="Moren-Image"></a>
                   </div>
                 </div>
               </div>
