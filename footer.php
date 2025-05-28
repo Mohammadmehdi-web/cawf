@@ -38,7 +38,7 @@
                 <ul>
                     <li><a href="index.php">home</a></li>
                     <li><a href="about.php">About us</a></li>
-                    <li><a href="lamma/index.php">LAMAA</a></li>
+                    <li><a href="lamaa/index.php">LAMAA</a></li>
                     <li><a href="contact.php">Contact us</a></li>
                 </ul>
             </div>

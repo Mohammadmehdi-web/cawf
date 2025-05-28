@@ -22,7 +22,7 @@
                         </li>
                         <li class="nav-item"><a class="nav-link" href="about.php">About Us</a></li>
                         
-                        <li class="nav-item"><a class="nav-link" href="lamma/index.php">LAMAA</a></li>
+                        <li class="nav-item"><a class="nav-link" href="lamaa/index.php">LAMAA</a></li>
                         <li class="nav-item submenu"><a class="nav-link" href="index.html">Our Team</a>
                                     <ul>
                                         <li class="nav-item"><a class="nav-link" href="index-2.html">Delhi Team</a></li>
