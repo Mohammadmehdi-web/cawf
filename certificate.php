@@ -184,7 +184,7 @@ if (isset($_GET['form_number']))
             <td><?= htmlspecialchars($data['first_name']) ?></td>
           </tr>
           <tr>
-            <td><b>PAN No  </b></td>
+            <td><b>PAN No</b></td>
             <td><?= htmlspecialchars($data['pan_no']) ?></td>
           </tr>
           <tr>
