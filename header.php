@@ -62,11 +62,11 @@
                         <li class="nav-item"><a class="nav-link" href="about.php">About Us</a></li>
                         
                         <li class="nav-item"><a class="nav-link" href="lamaa/index.php">LAMAA</a></li>
-                        <li class="nav-item submenu"><a class="nav-link" href="index.html">Our Team</a>
+                        <li class="nav-item submenu"><a class="nav-link" href="#">Our Team</a>
                                     <ul>
-                                        <li class="nav-item"><a class="nav-link" href="index-2.html">Delhi Team</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="index-video.html">UP Team</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="index-slider.html">Haryana Team</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#">Delhi Team</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#">UP Team</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#">Haryana Team</a></li>
                                     </ul>
                                 </li>
                         <li class="nav-item"><a class="nav-link" href="#">Upcoming Projects</a></li>
