@@ -23,6 +23,15 @@
                         <li class="nav-item"><a class="nav-link" href="about.php">About Us</a></li>
                         
                         <li class="nav-item"><a class="nav-link" href="lamma/index.php">LAMAA</a></li>
+                        <li class="nav-item submenu"><a class="nav-link" href="index.html">Our Team</a>
+                                    <ul>
+                                        <li class="nav-item"><a class="nav-link" href="index-2.html">Delhi Team</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="index-video.html">UP Team</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="index-slider.html">Haryana Team</a></li>
+                                    </ul>
+                                </li>
+                        <li class="nav-item"><a class="nav-link" href="#">Upcoming Projects</a></li>
+
                         <li class="nav-item"><a class="nav-link" href="registration.php">Registration</a></li>
                         <li class="nav-item"><a class="nav-link" href="contact.php">Contact Us</a></li>
                         <li class="nav-item"><a class="nav-link" href="donate-us.php">Donate Us</a></li>

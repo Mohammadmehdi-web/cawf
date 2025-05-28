@@ -226,7 +226,7 @@
                 <li><a href="index.php">LAMAA</a></li>
                 <li><a href="../registration.php">Registration</a></li>
                 <li><a href="../contact.php">Contact Us</a></li>      
-                <li><a href="../donate-us.php">Donate US</a></li>
+                
               </ul>
             </div>
           </div>
@@ -271,7 +271,7 @@
             <div class="category-items-style4">
               <div class="category-item hover-effect effect-style1">
                 <div class="thumb">
-                  <a href="index.php"><img src="assets/img/Main banner/1.jpg" alt="Moren-Shop"></a>
+                  <a href="index.php"><img src="assets/img/banner/lamaa-banner-1.jpg" alt="Moren-Shop"></a>
                   <div class="effect-content"></div>
                 </div>
                 <div class="content">
@@ -661,7 +661,10 @@
               <nav class="widget-menu-wrap">
                 <ul class="nav-menu nav">
                   <li><a href="../registration.php">Registration</a></li>
-                    <li><a href="../donate-us.php">Donate Us</a></li>
+                  <li><a href="../terms-and-condition.html" target="_blank">Terms & Condition</a></li>
+                  <li><a href="../privacy-and-policy.html" target="_blank">Privacy & Policy</a></li>
+                  <li><a href="../refund.html" target="_blank">Refund & Cancellation Policy</a></li>
+                    
                 </ul>
               </nav>
             </div>

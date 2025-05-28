@@ -48,10 +48,15 @@
         <div class="col-lg-3 col-md-4 col-6">
             <!-- Footer Links Start -->
             <div class="footer-links">
-                <h3 class="fw-bold">Important Links</h3>
+                <h3 class="fw-bold">Other Links</h3>
                 <ul>
                     <li><a href="registration.php">Registration</a></li>
                     <li><a href="donate-us.php">Donate Us</a></li>
+                    <li><a href="terms-and-condition.html" target="_blank">Terms & Condition</a></li>
+                    <li><a href="privacy-and-policy.html" target="_blank">Privacy & Policy</a></li>
+                    <li><a href="refund.html" target="_blank">Refund & Cancellation Policy</a></li>
+                   
+
                 </ul>
             </div>
             <!-- Footer Links End -->
