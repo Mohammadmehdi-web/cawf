@@ -1,3 +1,42 @@
+<style>
+    .main-menu ul li.nav-item .nav-link {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 10px;
+    color: black;
+    text-transform: capitalize;
+    transition: all 0.3s ease-in-out;
+}
+@keyframes colorBlink {
+  0%   { color: red; }
+  16%  { color: orange; }
+  32%  { color: yellow; }
+  48%  { color: green; }
+  64%  { color: blue; }
+  80%  { color: purple; }
+  100% { color: red; }
+}
+
+.multicolor-blink {
+  animation: colorBlink 1.5s infinite;
+  font-weight: bold; /* optional: make it stand out */
+}
+@keyframes colorBlinkFade {
+  0%   { color: red; opacity: 1; }
+  16%  { color: orange; opacity: 0.8; }
+  32%  { color: yellow; opacity: 0.6; }
+  48%  { color: green; opacity: 0.8; }
+  64%  { color: blue; opacity: 0.6; }
+  80%  { color: purple; opacity: 0.8; }
+  100% { color: red; opacity: 1; }
+}
+
+.multicolor-blink {
+  animation: colorBlinkFade 2s infinite;
+  font-weight: bold;
+}
+</style>
+
 <div class="cawf-marquee-wrapper">
     <div class="cawf-marquee">
         <span>
@@ -31,8 +70,7 @@
                                     </ul>
                                 </li>
                         <li class="nav-item"><a class="nav-link" href="#">Upcoming Projects</a></li>
-
-                        <li class="nav-item"><a class="nav-link" href="registration.php">Registration</a></li>
+                        <li class="nav-item"><a class="nav-link " href="registration.php">Registration <img src="images\about-image\gif.gif" alt="" srcset="" style="height:25px ;width:25px"></a></li>
                         <li class="nav-item"><a class="nav-link" href="contact.php">Contact Us</a></li>
                         <li class="nav-item"><a class="nav-link" href="donate-us.php">Donate Us</a></li>
                     </ul>
